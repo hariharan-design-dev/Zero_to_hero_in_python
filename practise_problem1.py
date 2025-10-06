@@ -1,0 +1,5 @@
+basic_salary=(int(input(" Enter the basic_salary:")))
+hra_percent=(int(input("Enter the hra_percent")))
+da_percent=(int(input("Enter the da_percent")))
+gross=basic_salary+(basic_salary*hra_percent/100+(basic_salary*da_percent/100))
+print(f"gross salary:{gross}")
